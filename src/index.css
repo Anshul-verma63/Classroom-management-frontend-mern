@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  background: url("./img/classroom.jpg") no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 5rem;
+  text-align: center;
+  color: blue;
+}
+.btn {
+  padding: 12px 25px;
+  cursor: pointer;
+  background-color: rgb(245, 75, 56);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-color: white;
+  color: rgb(245, 75, 56);
+}
+
+.cart {
+  width: 300px;
+  height: 150px;
+  background-color: rgb(235, 220, 220);
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.loginpage {
+  background-color: rgb(176, 180, 180);
+  height: 100vh;
+}
+.cart-container {
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.login-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.input-item {
+  height: 34px;
+  padding: 2px;
+  margin-top: 10px;
+  width: 200px;
+  outline: none;
+  font-size: 1.1rem;
+}
+.login-btn {
+  padding: 12px 25px;
+  cursor: pointer;
+  background-color: rgb(38, 87, 108);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  transition: all 0.5s;
+  margin-top: 10px;
+}
+.login-btn:hover {
+  background-color: white;
+  color: rgb(38, 87, 108);
+}
+
+/* //admin dashboard  */
+.dashboard-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.left {
+  width: 17%;
+  background-color: rgb(200, 200, 200);
+  height: 100vh;
+  padding: 10px;
+}
+.right {
+  width: 83%;
+}
+.right .header {
+  width: 100%;
+  height: 55px;
+  background-color: rgb(39, 255, 233);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.nav-list-item {
+  width: 100%;
+  background-color: white;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.nav-list {
+  margin-top: 30px;
+}
+
+/* //create class  */
+.class-container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
